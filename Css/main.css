@@ -1,0 +1,192 @@
+/**************************
+GENRAL
+***************************/
+
+
+#wrapper{
+  max-width: 940px ;
+  margin: 0 auto ;
+  padding: 0 5% ;
+}
+
+a{
+  text-decoration: none;
+}
+
+section img {
+  width: 100%;
+}
+
+/**************************
+HEADING
+***************************/
+
+header{
+  float:left;
+  margin:0 0 30px 0;
+  padding:5px 0 0 0;
+  width: 100%;
+}
+
+#logo{
+  text-align:center ;
+  margin: 0;
+  
+}
+
+/**************************
+COLORS
+***************************/
+
+
+/**************************
+about
+***************************/
+
+
+
+#profile-photo{
+  display:block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius:100%;
+}
+
+
+
+
+/**************************
+Contact
+***************************/
+
+
+#contact-info{
+  list-style:none;
+  margin:0;
+  padding:0;
+  font:0.9em;
+}
+
+#contact-info a {
+ 
+  display:block;
+  min-height:20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding:0 0 0 30px;
+  margin:0 0 10px;
+}
+
+#phone a{
+  background-image:url('../img/phone.png');
+}
+
+#mail a {
+  
+  background-image:url('../img/mail.png');
+}
+
+#twitter a {
+  background-image:url('../img/twitter.png');
+}
+
+/**************************
+HEADING
+***************************/
+
+#gallery{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+#gallery li {
+  float:left;
+  width:45%;
+  margin:2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li:nth_child(3n){
+  clear:left;
+}
+
+#gallery li a p { 
+  margin:0;
+  padding:5%;
+  font-size:0.75em;
+  color:#bdc3c7;
+
+}
+
+
+body{
+  color:#999;
+  background-color:#fff;
+}
+
+header{
+  background:#6ab47b;
+  border-color:#599a68;
+  
+}
+h1,h2{
+  color:#fff;
+}
+
+
+a{
+  color:#6ab47b;
+}
+
+nav{
+  background-color:#599a68;
+
+}
+
+nav ul {
+  list-style:none ;
+  margin:0 10px;
+  padding:0;
+
+}
+
+
+nav li{
+  display:inline-block;
+}
+
+nav a{
+  font-weight:800;
+  padding: 15px 10px;
+  
+}
+
+
+
+nav a ,nav a:visited{
+  color:#fff;
+}
+
+#selected {
+  color:#32673f;
+}
+
+
+nav a.Selected , nav a:hover{
+  color:#32673f;
+}
+
+footer img {
+  
+  height: 20px;
+  width:20px;
+  margin: 0 5px ;
+  
+}
+
+
+
+
+

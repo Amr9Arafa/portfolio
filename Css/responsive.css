@@ -1,0 +1,65 @@
+@media screen and (min-width:480px)
+    {
+  
+  #primary{
+    width:5o%;
+    float:left;
+    
+  }
+
+  #secondary{
+    width:40%;
+    float:right;
+  }
+  
+  #gallery li{
+    width:28.3333%;
+  
+  }
+  
+  #gallery li:nth_child(4n){
+    clear:left;
+  
+  }
+  
+  
+  #profile-photo{
+    
+    float:left;
+    margin:0 5% 80 0;
+  }
+  
+}
+
+@media screen and (min-width:660px)
+    {
+  
+  nav {
+    background: none;
+    float: right ;
+    font-size:1.125em;
+    margin-right:5%;
+    text-align:right;
+    width: 45%;
+    
+  }
+  
+  h1 {
+    
+    font-size: 2.5em;
+    text-align:left;
+    
+  }
+  
+  h2{
+    font-size:0.85em;
+    margin-bottom:20px;
+    text-align:left;
+  }
+  
+  header{
+    border-bottom: 5px solid #599a68;
+    margin-bottom:60px;
+  }
+  
+}
